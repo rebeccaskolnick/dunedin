@@ -28,8 +28,8 @@
     <!-- Nav -->
     <nav id="nav">
       <ul>
-        <!-- <li><a href="#intro">Intro</a></li>
-							<li><a href="#one">What I Do</a></li> -->
+        <!-- <li><a href="#intro">Intro</a></li> -->
+				<li><a href="#one">Our Approach</a></li>
         <!-- <li><a href="#two">Who I Am</a></li> -->
         <li><a href="#work">New Patients</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -54,17 +54,18 @@
   </section>
 
   <!-- One -->
-  <!-- <section id="one" class="main style2 right dark fullscreen">
+  <section id="one" class="main style2 right dark fullscreen">
 				<div class="content box style2">
 					<header>
-						<h2>What I Do</h2>
+						<h2>An Integrative Approach</h2>
 					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+					<p>Integrative medicine is an approach to care that puts the patient at the center and addresses
+						the full range of physical, emotional, mental, social, spiritual and environmental influences that
+						affect a person’s health. By shifting the traditional disease-centered focus of medical practice to a
+						more patient-centered approach, integrative medicine addresses the whole person, not just an isolated set of symptoms.</p>
 				</div>
 				<a href="#two" class="button style2 down anchored">Next</a>
-			</section> -->
+			</section>
 
   <!-- Two -->
   <!-- <section id="two" class="main style2 left dark fullscreen">
@@ -84,7 +85,8 @@
     <div class="content container">
       <header>
         <h2>New Patients</h2>
-        <p>Here you can download our patient intake forms. Please print and fill them out prior to arriving for your first visit. This will help ensure the best use of your time.</p>
+				<p><body> For scheduling, please call our office at (727) 734-6777</body></p>
+				<p>Here you can download our patient intake forms. Please print and fill them out prior to arriving for your first visit. This will help ensure the best use of your time.</p>
       </header>
 
       <!-- Lightbox Gallery  -->
@@ -198,7 +200,7 @@
         <script>
           function changeImage() {
             var introImageContainer = document.getElementById("intro");
-            $('#intro').fadeTo('slow', 0.5, function(){
+            $('#intro').fadeTo('slow', 0.1, function(){
               $(this).css('background-image', 'url("images/overlay.png"), url("'+images[x]+'")')
             }).fadeTo('slow', 1)
 
@@ -214,9 +216,9 @@
           var images = [],
           x = 0;
 
-          images[0] = "/images/office-sign.jpg";
-          images[1] = "/images/fuller-office.jpg";
-          images[2] = "/images/slanted-office.jpg";
+          images[0] = "/images/withpatient.jpg";
+          images[1] = "/images/slanted-office.jpg";
+          images[2] = "/images/office-sign.jpg";
           changeImage()
         </script>
 
