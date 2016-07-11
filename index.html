@@ -198,7 +198,9 @@
         <script>
           function changeImage() {
             var introImageContainer = document.getElementById("intro");
-            introImageContainer.style.backgroundImage = 'url("images/overlay.png"), url("'+images[x]+'")';
+            $('#intro').fadeTo('slow', 0.5, function(){
+              $(this).css('background-image', 'url("images/overlay.png"), url("'+images[x]+'")')
+            }).fadeTo('slow', 1)
 
             x++;
 
